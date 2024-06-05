@@ -2,7 +2,7 @@ import React from "react";
 
 const Recommended = () => {
   return (
-    <div className="container mx-auto my-2 sm:flex sm:flex-col sm:items-center sm:gap-2">
+    <div className="container mx-2 my-2 sm:flex sm:flex-col sm:items-center sm:gap-2">
       <h1 className="text-xl font-semibold">Recomended</h1>
       <div className="flex flex-wrap gap-2">
         <button className="outline outline-2 py-1 px-3 rounded-lg">
