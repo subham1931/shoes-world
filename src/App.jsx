@@ -1,18 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Products from "./components/Products";
-import Recommended from "./components/Recommended";
-import SIdebar from "./components/SIdebar";
-import Footer from './components/Footer'
+// import Navbar from "./components/Navbar";
+
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Recommended/>
-      <Products />
-      {/* <SIdebar/> */}
-      <Footer/>
+    <div className="text-3xl text-center mt-20">
+      App
     </div>
   );
 };
